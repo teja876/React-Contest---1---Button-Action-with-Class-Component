@@ -18,7 +18,7 @@ class App extends Component {
       <div id="main">
         {/* Do not remove this main div!! */}
         <button id="click" onClick={handelClick}>
-          {this.view === true ? (
+          {this.state.view === true ? (
             <p id="para">
               Hello, I've learnt to use the full-stack evaluation tool. This
               makes me so happy
